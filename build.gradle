@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Wala pang additional dependencies dahil core Java lang ang gamit
+}
+
+application {
+    mainClass = 'Counter' // Entry point ng iyong application
+}
